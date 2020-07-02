@@ -4,5 +4,5 @@ Displays your country flag and location information, and centers a map at this l
 
 Uses OpenLayers map, JQuery, and AJAX.
 
-##TODO
+## TODO
 - beautification
