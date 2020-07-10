@@ -1,9 +1,20 @@
-.map {
-  height: 400px;
-  width: 100%;
+img {
+	max-width: 150px;
+	height: auto;
 }
 
-.flag {
-  height: 100px;
-  width: 100%;
+button {
+	height: 100px;
+	width: 80%;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.map {
+	height: 400px;
+	width: 100%;
 }
