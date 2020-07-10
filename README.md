@@ -6,6 +6,9 @@ http://fleischer.epizy.com/
 
 Uses OpenLayers map, JQuery, and AJAX.
 
+- https://jsonip.com/
+- http://api.ipstack.com/
+
 ## TODO
 - [x] Stop appending information when button is clicked multiple times
 - [x] Beautification
