@@ -8,4 +8,5 @@ Uses OpenLayers map, JQuery, and AJAX.
 
 ## TODO
 - [x] Stop appending information when button is clicked multiple times
-- [ ] Beautification
+- [x] Beautification
+- [ ] More Beautification
