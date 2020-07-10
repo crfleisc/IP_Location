@@ -1,0 +1,20 @@
+img {
+	max-width: 150px;
+	height: auto;
+}
+
+button {
+	height: 100px;
+	width: 80%;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.map {
+	height: 400px;
+	width: 100%;
+}

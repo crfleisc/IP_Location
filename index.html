@@ -3,28 +3,28 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
-        <link rel='stylesheet' href='css/style.css' type='text/css'>
-        <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src='/script/script.js'></script>
-        
-        <title>IP LOCATION</title>
-      </head>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
+		<link rel='stylesheet' href='css/style.css' type='text/css'>
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src='/script/script.js'></script>
+		
+		<title>IP LOCATION FINDER</title>
+    </head>
       
-      <body>
-        <h1>View Your Location Based On Your IP</h1>
-        <button onclick="changeview()">
-          Click to View Location
-        </button>
-        <div id="map" class="map"></div>
-        <image id='flag'></image>
-        <div id='ip'>IP: </div>
-        <div id='continent'>Continent: </div>
-        <div id='country'>Country: </div>   
-        <div id='region'>Region: </div>
-        <div id='city'>City: </div>
-        <div id='zip'>Zip/Postal Code: </div>
+    <body class='centered'>
+        <h1>View Your Approximate Location Based On Your IP</h1>
+		<button onclick="changeview()">
+			Click to View Location
+		</button>
+			<div id='ip'>IP: </div>
+			<div id='continent'>Continent: </div>
+			<div id='country'>Country: </div>   
+			<div id='region'>Region: </div>
+			<div id='city'>City: </div>
+			<div id='zip'>Zip/Postal Code: </div>
+			<image id='flag'></image>
+			<div id='map' class='map'></div>
     </body>
 
     <footer>
