@@ -7,5 +7,5 @@ http://fleischer.epizy.com/
 Uses OpenLayers map, JQuery, and AJAX.
 
 ## TODO
-- stop appending information when button is clicked multiple times
-- beautification
+- [x] Stop appending information when button is clicked multiple times
+- [ ] Beautification
